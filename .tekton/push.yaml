@@ -67,7 +67,7 @@ spec:
         taskSpec:
           workspaces:
             - name: source
-          steps:
+          stepss:
             - name: noop-task
               image: registry.access.redhat.com/ubi9/ubi-micro
               workingDir: $(workspaces.source.path)
