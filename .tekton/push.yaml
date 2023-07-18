@@ -74,6 +74,7 @@ spec:
               script: |
                 echo "hello world"
                 echo "second line"
+                echo "Am I doing something"
                 exit 1
   workspaces:
   - name: source
